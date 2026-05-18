@@ -1,6 +1,6 @@
 package com.study.java.chapter;
 /**
- * Text
+ * Constant, Text
 * */
 public class Ch03Variable {
     public static void main(String[] args) {
