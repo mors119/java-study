@@ -8,7 +8,7 @@ import java.time.temporal.ChronoField;
 import java.time.temporal.ChronoUnit;
 
 /**
- * time
+ * LocalTime, LocalDate
  */
 public class Ch27Time {
     // java.time: 날짜와 시간을 다루는 핵심 클래스 제공
@@ -20,7 +20,7 @@ public class Ch27Time {
     // java.time (불변 객체)
     class TestTime {
         // LocalDate(날짜) + LocalTime(시간) = LocalDateTime(날짜 & 시간) - 전부 불변
-        // 시간대(time-zone)까지 필요할 때, ZonedDateTime 사용
+        // LocalDateTime + ZoneId(시간대(time-zone)) = ZonedDateTime(날짜 & 시간 & 시간대)
         // Period는 날짜의 차이(날짜 - 날짜). Duration은 시간의 차이(시간 - 시간).
 
         // LocalDate, LocalTime ...의 매개변수로 인터페이스 Temporal(), TemporalField(날짜 시간 필드), TemporalUnit(날짜 시간 단위)등이 쓰인다.
